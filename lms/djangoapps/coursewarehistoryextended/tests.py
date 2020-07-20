@@ -21,7 +21,6 @@ from lms.djangoapps.courseware.tests.factories import StudentModuleFactory, cour
 class TestStudentModuleHistoryBackends(TestCase):
     """ Tests of data in CSMH and CSMHE """
     # Tell Django to clean out all databases, not just default
-    multi_db = True
 
     def setUp(self):
         super(TestStudentModuleHistoryBackends, self).setUp()
